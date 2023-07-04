@@ -1,24 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-size: contain;
+}
+
 #grid {
     display: flex;
     flex-wrap: wrap;
-    width: 700px;
-    height: 600px;
-    
+    width: 600px;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
 
 #grid img{
   width:25%;
   height:auto;
+ 
 }
 
   
 #result
 {
-   font-size:50px;
+   font-size:35px;
    color:red;
-   background-color: yellow;
-   display: flex;
-   justify-content: center;
-   align-items: center;
 
+}
+
+h1{
+  color: red;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
 }
